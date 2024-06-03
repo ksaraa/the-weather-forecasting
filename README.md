@@ -1,60 +1,22 @@
-![Application screenshot](./public/screenshot.png)
+# Aplikacija za vremensku prognozu
 
-<br/>
-<br/>
+Ova aplikacija omogućava korisnicima da pretražuju vremensku prognozu za različite lokacije koristeći OpenWeather API servis u pozadini. Aplikacija takođe pruža predviđanje vremenskih uslova za narednih 7 dana.
 
-With [The Weather Forecasting](https://the-weather-forecasting.netlify.app) user can search locations by city name and observe the weather for the next 5-6 days and 3 hour interval.
-<br />
-The app is developed using React.js and material-UI.
+![Primer pretrage](src/assets/example.jpg)
 
-<br/>
 
-## 💻 Live Demo:
+## Karakteristike
 
-https://the-weather-forecasting.netlify.app
+- Pretraga trenutne vremenske prognoze za bilo koju lokaciju
+- Prikaz detaljne vremenske prognoze za narednih 7 dana
+- Podaci uključuju temperaturu, vlažnost, brzinu vetra i druge relevantne informacije
+- Jednostavan i intuitivan korisnički interfejs
 
-<br/>
 
-## ✨ Getting Started
+## Konfiguracija
 
-- Make sure you already have `Node.js` and `npm` installed in your system.
-- You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
-- Then, under the `src` directory, go to `api/OpenWeatherService` and replace `WEATHER_API_KEY` with your OpenWeatherMap API Key.
-  - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
-
-<br/>
-
-## ⚡ Install
-
-- Clone the repository:
-
-```bash
-git clone https://github.com/Amin-Awinti/the-weather-forecasting.git
-
-```
-
-- Install the packages using the command `npm install`
-
-<br/>
-
-## 📙 Used libraries
-
-- `react-js`
-- `material-ui`
-
-Check `packages.json` for details
-
-<br/>
-
-## 📄 Todos
-
-- [ ] Styled-components
-- [ ] Convert the entire project to TypeScript
-- [ ] Unit Testing
-- [ ] On launch, find user location weather by utilizing GeolocationAPI/GEOCODING
-- [ ] Celcius/Fahrenheit conversion
-- [ ] Dark/Light Mode
-
-<br/>
-Thank You ☺
-"# the-weather-forecasting" 
+1. Registrujte se na [OpenWeather](https://openweathermap.org/) i kreirajte API ključ.
+2. Kreirajte `.env` fajl u root direktorijumu projekta i dodajte vaš API ključ:
+    ```
+    OPENWEATHER_API_KEY=vaš_api_ključ
+    ```"# the-weather-forecasting" 

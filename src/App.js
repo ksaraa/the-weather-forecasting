@@ -12,6 +12,7 @@ import Logo from './assets/logo.png';
 import ErrorBox from './components/Reusable/ErrorBox';
 import { ALL_DESCRIPTIONS } from './utilities/DateConstants';
 import GitHubIcon from '@mui/icons-material/GitHub';
+
 import {
   getTodayForecastWeather,
   getWeekForecastWeather,
@@ -192,7 +193,7 @@ function App() {
 
             <UTCDatetime />
             <Link
-              href="https://github.com/Amin-Awinti"
+              href="https://github.com/ksaraa"
               target="_blank"
               underline="none"
               sx={{ display: 'flex' }}
